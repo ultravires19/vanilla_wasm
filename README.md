@@ -1,6 +1,9 @@
 # Vanilla WASM
 A basic setup for using wasm in a TS project without a framework 
 
+## startup
+- run `pnpm install` && `pnpm run dev` in `/front/` directory
+- run `wasm-pack build --target web` in `/wasm/` directory
 
 ### getting here
 - create vite project `front` for vanilla ts
